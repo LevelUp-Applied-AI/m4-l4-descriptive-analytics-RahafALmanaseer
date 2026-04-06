@@ -1,22 +1,9 @@
 # Findings
 
 ## Observations
-- Most students have GPA between 2.5 and 3.5, a few below 2.5.
-- Students who study more hours usually get higher GPA.
-- Students doing internships tend to perform better.
-- Attendance slightly affects GPA; lower attendance often means lower GPA.
-- Study habits vary by department, but overall GPA is similar across departments.
+- GPA mostly between 2.5 and 3.5
+- Students who study more tend to have higher GPA
+- Internship students seem to perform better
 
 ## Tests
-- T-test (internship vs GPA):
-  - t = 13.56, p ≈ 0.00
-  - Interpretation: Internships help improve GPA significantly.
-- ANOVA (GPA by department):
-  - F = 0.67, p = 0.61
-  - Interpretation: No significant difference in GPA between departments.
-
-## Insights
-- Doing internships can help students get better grades.
-- Studying regularly is important for good GPA.
-- Keeping track of attendance helps identify students who may need support.
-- Differences between departments are small; focus on individual support.
+{'ttest': (np.float64(13.564449963628105), np.float64(3.684812896473325e-40)), 'anova': (np.float64(0.6671331447421623), np.float64(0.6148106470048376))}
